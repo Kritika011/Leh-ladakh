@@ -1,0 +1,198 @@
+style{
+  box-sizing: border-box;
+}
+div body {
+  font-family: Arial;
+  margin: 0 ;
+  max-width: 800px; 
+  padding: 20px;
+
+}
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+/* Individual bars */
+.bar-5 {width: 80%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 63%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 50%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 9%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+p{
+    color: black;
+    font-size: 20px;
+}
+h2{
+    color: black;
+}
+ 
+ h1{
+     color: rgb(24, 9, 8);
+ }
+ 
+ p2{
+     color: rgb(116, 25, 25);
+ }
+
+
+
+
+ .review1{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #ffeec1;
+  
+}
+.review2{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #b4e2f9;
+  
+}
+.review3{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #fcd1f1;
+  
+  
+}
+
+.review4{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #dcb2ff;
+  
+  
+}
+
+.review5{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #ffa6a6;
+  
+  
+}
+
+.review6{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #7e076285;
+  
+  
+}
+
+.review7{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #a8ffd5;
+  
+  
+}
+
+.review8{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #448a5a;
+  
+}
+  
+  .review9{
+  padding: 20px;
+  border: 5px solid black;
+  margin: 40px;
+  background-color: #87b5f5;
+  
+  }
+  
+  
+  
+
+
+
+
+.checked{
+color: firebrick;
+}
+
+div.gallery {
+margin: 5px;
+border: 1px solid #030101;
+float: left;
+width: 180px;
+background-color: #fcd1f1;
+}
+
+div.gallery:hover {
+border: 1px solid #4e2b2b;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
